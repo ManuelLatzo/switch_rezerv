@@ -1,0 +1,16 @@
+[Unit]
+Description=ICMP RosTelecom Check
+After=network.target
+Wants=network-online.target systemd-networkd-wait-online.service
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+
+Restart=on-failure
+RestartSec=5s
+ExecStart=/home/adm_barnakovmn/rostelecom_rezerv/task.sh
+
+
+[Install]
+WantedBy=default.target
