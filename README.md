@@ -1,9 +1,9 @@
-icmp_task.service - сервис (/etc/systemd/system/icmp_task.service) запуска службы 
-task.sh - BASH скрипт для запуска планировщика task.py
-task.py - планировщик запуска проверки доступности хостов 1 раз в секунду. 
-switch_channel_to_rezerv.py  - запуск переключения канала
-  - device_name.py - Контекст подключения к устоойствам 
-state.yaml - состояние переключения
+icmp_task.service - сервис (/etc/systemd/system/icmp_task.service) запуска службы <BR>
+task.sh - BASH скрипт для запуска планировщика task.py<BR>
+task.py - планировщик запуска проверки доступности хостов 1 раз в секунду. <BR>
+switch_channel_to_rezerv.py  - запуск переключения канала<BR>
+  - device_name.py - Контекст подключения к устоойствам <BR>
+state.yaml - состояние переключения<BR>
 
 
 
